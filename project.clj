@@ -22,5 +22,5 @@
 
   :dependencies [[org.clojure/clojure "1.10.1"]
   				[org.clojure/clojurescript "1.10.764"]
-  				[reagent "0.5.0"]]
+  				[reagent "0.10.0"]]
   :repl-options {:init-ns helloworld.core})

@@ -1,7 +1,7 @@
-(ns helloworld.core)
+(ns helloworld.core
+	#?(:cljs (:require [reagent.core :as reagent])))
 
 (defn say-hello []
-  #?(:clj (println  "Hello from clojure......")
-  	:cljs (js/alert "hello from clojurescript")))
+  #?(:cljs (js/console.log js/React)))
 
 (say-hello)
