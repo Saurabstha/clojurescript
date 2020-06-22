@@ -51,4 +51,5 @@ goog.addDependency("../reagent/impl/template.js", ['reagent.impl.template'], ['r
 goog.addDependency("../cljsjs/react-dom/development/react-dom.inc.js", ['react_dom', 'cljsjs.react.dom'], ['react'], {'foreign-lib': true});
 goog.addDependency("../reagent/dom.js", ['reagent.dom'], ['reagent.impl.util', 'reagent.ratom', 'cljs.core', 'reagent.impl.template', 'reagent.impl.batching', 'react_dom']);
 goog.addDependency("../reagent/core.js", ['reagent.core'], ['reagent.impl.util', 'reagent.ratom', 'react', 'cljs.core', 'reagent.impl.template', 'reagent.impl.batching', 'reagent.impl.component', 'reagent.debug', 'reagent.dom']);
-goog.addDependency("../helloworld/core.js", ['helloworld.core'], ['reagent.core', 'cljs.core']);
+goog.addDependency("../helloworld/title.js", ['helloworld.title'], ['cljs.core']);
+goog.addDependency("../helloworld/core.js", ['helloworld.core'], ['reagent.core', 'cljs.core', 'helloworld.title']);
